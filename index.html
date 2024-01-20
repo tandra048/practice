@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind css</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+      <nav class="bg-[#0E1133]  py-6">
+        <div class="container max-auto px-8 lg:px-24 ">
+        <div class="flex flex-row justify-between">
+         <div class="flex flex-row  justify-center items-center gap-x-8">
+          <div>
+            <img src="assets/logo-3.png" alt="">
+           </div>
+           <div class="text-white font-semibold text-lg space-x-4 hidden lg:flex">
+                  <a class="hover:text-orange-400 duration-300">Home</a>
+                  <a class="hover:text-orange-400 duration-300">About</a>
+                  <a class="hover:text-orange-400 duration-300">Services</a>
+                  <a class="hover:text-orange-400 duration-300">Blog</a>
+                  <a class="hover:text-orange-400 duration-300">Contact</a>
+           </div>
+           
+         </div>
+           <div class="space-x-6 hidden lg:flex">
+            <button class="btn btn-ghost text-white font-semibold text-lg">Login</button>
+            <button class="btn text-lg text-white font-semibold border-white bg-orange-700 hover:bg-transparent duration-300">Get Started</button>
+           </div>
+
+           <div class="dropdown flex">
+            <div tabindex="0" role="button"  >
+              <img class="w-8 h-8 lg:hidden" src="assets/more.png" alt="">
+             </div>
+             <div tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-slate-600 rounded-box w-52 text-white font-semibold text-lg space-x-4 lg:hidden flex">
+              <a class="hover:text-orange-400 duration-300">Home</a>
+              <a class="hover:text-orange-400 duration-300">About</a>
+              <a class="hover:text-orange-400 duration-300">Services</a>
+              <a class="hover:text-orange-400 duration-300">Blog</a>
+              <a class="hover:text-orange-400 duration-300">Contact</a>
+            </div> 
+           </div>
+
+        </div>
+      </div>
+      </nav>      
+</body>
+</html>
